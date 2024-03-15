@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto</title>
+        <meta charset="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,900"rel="stylesheet">
+        <link rel="stylesheet" href="form.js">
+        <link rel="stylesheet" href="form.css"> 
+    </head>
+    <body>
+        <form action="<?php echo
+        htmlspecialchars($_SERVER['PHP_SELF'])?>" method="post" class="formulario">
+        <h1 class="formulario__titulo">Contáctenos</h1>
+      <input type="text" class="formulario__input">
+      <label for="" name="nombres" class="formulario__label">Nombres </label>
+      <input type="text" class="formulario__input">
+      <label for="" name="correo" class="formulario__label">Correo Electronico</label>
+      <input type="text" class="formulario__input">
+      <label for="" name="telefono" class="formulario__label">Teléfono</label>
+      <input type="text" class="formulario__input">
+      <label for="" name="mensaje" class="formulario__label">Mensaje</label>
+      <input type="submit" class="formulario__submit" name="submit">
+    </form>
+    </body>
+</html>
