@@ -17,14 +17,14 @@
   }
   
   :root {
-    --cfondo: rgb(207, 211, 212);
-    --cfondoForm1: rgba(1, 80, 88, 0.39);
-    --cfondoForm2: rgb(129, 193, 202);
+    --cfondo: rgb(32, 32, 32);
+    --cfondoForm1: rgba(159, 217, 132, 0.685);
+    --cfondoForm2: rgb(174, 230, 169);
     --cnegro: black;
-    --ctexto: rgb(14, 81, 88);
-    --ctextoDark: rgb(1, 35, 39);
+    --ctexto: rgb(46, 45, 45);
+    --ctextoDark: rgb(2, 14, 16);
     --cblanco: white;
-    --error: rgb(184, 31, 31);
+    --error: rgba(232, 39, 39, 0.965);
   }
   
   [type="checkbox"] {
